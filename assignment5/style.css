@@ -1,8 +1,8 @@
 /* || General setup */
 
 html, body {
-  margin: 0;
-  padding: 0;
+  margin: 1px;
+  padding: 5px;
 }
 
 html {
@@ -52,7 +52,7 @@ p, li, table {
 /* || header layout */
 
 div[class="nav"], article, footer, .secondary {
-  background-color: green;
+  background-color: whitesmoke;
 }
 
 article, footer, .secondary {
@@ -72,7 +72,7 @@ div[class="nav"] {
 }
 
 div[class="nav"] ul {
-  padding: 0;
+  padding: 5px;
   list-style-type: none;
   flex: 2;
   display: flex;
